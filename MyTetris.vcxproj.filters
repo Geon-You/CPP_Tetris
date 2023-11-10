@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\02.Screen">
+      <UniqueIdentifier>{7ecd3832-4491-4d51-9807-864e53e54167}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03.MainGame">
+      <UniqueIdentifier>{5a6b93cb-2bee-46bf-91e8-8bf4bdac7468}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene">
+      <UniqueIdentifier>{b476252f-fc31-4061-9ccb-e5b499256eb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04.Scene\여러 씬">
+      <UniqueIdentifier>{500dc03c-2c65-4968-b4a8-62f26c3d7262}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99.Others">
+      <UniqueIdentifier>{bbb042f6-a511-48ec-8b9b-8a125d6ae7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Object">
+      <UniqueIdentifier>{edcfe01f-c90c-4539-88d7-f4ed8fce13e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Object\Map">
+      <UniqueIdentifier>{7ef50cd4-d188-408b-b80c-d736ddfd25e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01.Object\Block">
+      <UniqueIdentifier>{f4136b74-abac-42f1-a24c-b052e205a0cc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Screen.h">
+      <Filter>소스 파일\02.Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>소스 파일\04.Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>소스 파일\99.Others</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>소스 파일\99.Others</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame.h">
+      <Filter>소스 파일\03.MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>소스 파일\04.Scene\여러 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Ingame.h">
+      <Filter>소스 파일\04.Scene\여러 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>소스 파일\04.Scene\여러 씬</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\01.Object</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrisMap.h">
+      <Filter>소스 파일\01.Object\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlocks.h">
+      <Filter>소스 파일\01.Object\Block</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Screen.cpp">
+      <Filter>소스 파일\02.Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>소스 파일\04.Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame.cpp">
+      <Filter>소스 파일\03.MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\04.Scene\여러 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="Ingame.cpp">
+      <Filter>소스 파일\04.Scene\여러 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver.cpp">
+      <Filter>소스 파일\04.Scene\여러 씬</Filter>
+    </ClCompile>
+    <ClCompile Include="mainRun.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\01.Object</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrisMap.cpp">
+      <Filter>소스 파일\01.Object\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlocks.cpp">
+      <Filter>소스 파일\01.Object\Block</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
